@@ -1,0 +1,54 @@
+*{
+
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.A{
+
+    background-color: black;
+    height: 8vh;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.B{
+    width: 21vw;
+    background-color: black;
+    color: white;
+    border-style: hidden;
+    height: 45px;
+    margin-top: 6px;
+
+}
+
+.B:hover{
+
+    color: black;
+    background-color: #fdf5e6;
+}
+
+.cafetime{
+
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.C{
+
+    position: relative;
+    top: 20vh;
+    text-align: center;
+    font-size: 39px;
+    font-family: "Inconsolata", sans-serif;
+    line-height: 15vh;
+
+}

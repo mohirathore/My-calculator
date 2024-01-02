@@ -1,0 +1,40 @@
+.image{
+
+    position: relative;
+    top: 20px;
+}
+
+.nav-link{
+
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.BT{
+    display: flex;
+}
+
+
+.main{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10vh 6vw;
+    
+}
+.para{
+    font-size: 21px;
+    color: grey;
+}
+
+.imu{
+    width: 83vh;
+    margin-left: 12vh;
+}
+
+.text{
+
+    text-align: center;
+}

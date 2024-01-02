@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+
+    <style>
+        .text{
+
+            background-color: brown;
+            font-size: 45px;
+            text-align: center;
+            display: none;
+
+        }
+
+
+        @media screen and (max-width:299px) {
+
+            #text1{
+                display: block;
+                background-color: chartreuse;
+            }
+            
+        }
+
+
+        @media screen and (min-width:300px) and (max-width:599px) {
+
+            #text2{
+                display: block;
+                background-color: blue;
+            }
+            
+        }
+
+        @media screen and (min-width:600px) and (max-width:1000px) {
+
+
+            #text3{
+
+                display: block;
+                background-color: yellow;
+            }
+            
+        }
+        @media screen and (min-width:1000px) {
+
+
+            #text4{
+                display: block;
+                background-color: darkmagenta;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="text" id="text1">Hello 1</div>
+    <div class="text" id="text2">Hello 2</div>
+    <div class="text" id="text3">Hello 3</div>
+    <div class="text" id="text4">Hello 4</div>
+    
+    
+</body>
+</html>

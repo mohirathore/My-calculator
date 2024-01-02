@@ -1,0 +1,29 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+.phone{
+    display: flex;
+    margin-left: 6vw;
+}
+.lang{
+    display: flex;
+    margin-right: 7vw;
+}
+
+.mainph{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.padding1{
+
+    padding: 10px 10px;
+}
+
+.hi{
+    display: flex;
+    justify-content: center;
+}
